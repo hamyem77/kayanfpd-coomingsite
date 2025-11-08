@@ -14,7 +14,7 @@
   "routes": [
     {
       "route": "/*",
-      "redirect": "/index.html",
+      "redirect": "https://www.kayanfpd.org",
       "statusCode": 301
     }
   ]
