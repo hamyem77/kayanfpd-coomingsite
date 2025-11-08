@@ -10,20 +10,5 @@
   },
   "globalHeaders": {
     "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload"
-  },
-  "routes": [
-    {
-      "route": "/",
-      "redirect": "https://www.kayanfpd.org",
-      "statusCode": 301
-    },
-    {
-      "route": "/index.html",
-      "serve": "/index.html"
-    },
-    {
-      "route": "/*",
-      "serve": "/index.html"
-    }
-  ]
+  }
 }
